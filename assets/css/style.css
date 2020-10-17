@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700');
+
 
 /*---navbar----*/
 
@@ -39,10 +41,35 @@
     color:#000000e1;
     background-color: #ffc34d;
     border-color: #ffc34d;
-    padding: 5px 15px;
-    margin-bottom: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 0px;
+    margin-bottom: 15px;
     border: 1px solid transparent;
     border-radius: 0;
+    text-align: center;
+    font-size: 23px;
+}
+/* History */
+
+.form-history {
+    font-size: 20px;
+    margin: 0;
+    padding: 2px;
+    align-content: center;
+    font-family: "Roboto", sans-serif;
+}
+
+.form-picture{
+    width: 90%;
+}
+.form-benefits{
+      font-size: 20px;
+    margin: 0;
+    padding: 2px;
+    align-content: center;
+    font-family: "Roboto", sans-serif;
+}
 }
 
 /*----twitter-----*/
@@ -65,24 +92,32 @@
 	padding: 0;
 	color: black;
 
+
 	/*-----front-image-----*/
 	.container-fluid {
 		width: 100%;
 		position: relative;
 	}
 
-.feature {
-    text-align: center;
-    margin-bottom: 40px;
-    font-size: 45px;
-    line-height: 45px;
+.social-links {
+    padding-bottom: 15px;
 }
 
-
-	/*----pawnbroking----*/
-   .pawning {
-        padding-top: 10px;
-    }
+  .social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 15px;
+    line-height: 7px;
+    text-align: center;
+    color: #ffc34d;;
+    background: #ffc34d;;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
 
 	/*---form---*/
 	.col {
