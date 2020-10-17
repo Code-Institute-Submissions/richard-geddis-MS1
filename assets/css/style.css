@@ -1,75 +1,95 @@
+
 /*---navbar----*/
+
 .navalert-container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.navbar {
+	margin-bottom: 0;
+	width: 100%;
+	background-color: #ffc34d;
+	border: 0;
+}
+
+.navbar .navbar-toggler {
+	border: 0;
+}
+
+.navbar .navbar-brand {
+	font-weight: bold;
+}
+
+.navbar .navbar-nav a {
+	font-weight: bold;
+}
+
+/*----covid alert------*/
+.alert-container .col-12 {
     padding-left: 0;
     padding-right: 0;
 }
 
-.navbar {
-    margin-bottom: 0;
-    width: 100%;
+.alert-warning {
+    color:#000000e1;
     background-color: #ffc34d;
-    border: 0;
+    border-color: #ffc34d;
+    padding: 5px 15px;
+    margin-bottom: 0;
+    border: 1px solid transparent;
+    border-radius: 0;
 }
-
-.navbar .navbar-toggler {
-    border: 0;
-}
-
-.navbar .navbar-brand {
-    font-weight: bold;
-}
-
-.navbar .navbar-nav a {
-    font-weight: bold;
-}
-
 
 /*----twitter-----*/
-.twitter-timeline{
-    float:right;
+
+.twitter-timeline {
+	float: right;
 }
+
 
 /*-----welcome to----*/
-.sidebar{
-    text-align: center;
-    font-size: 16px;
-    color: #0000e6;    
-    
+
+.sidebar {
+	text-align: center;
+	font-size: 16px;
+	color: #0000e6;
 }
+
 .sidebar2 {
-    list-style-type: none;
-    padding: 0;
-    color: black;
+	list-style-type: none;
+	padding: 0;
+	color: black;
 
-/*-----front-image-----*/
+	/*-----front-image-----*/
+	.container-fluid {
+		width: 100%;
+		position: relative;
+	}
 
-.container-fluid {
-  width: 100%;
-  position: relative;
-}
-
-/*----pawnbroking----*/
-
-
-/*----covid alert------*/
-.alert-primary {
-    color: black;
-    background-color: #ffc34d;
+.feature {
     text-align: center;
-}
-
-/*---form---*/
-.col{
-    padding-top: 3%;
-    width: 5%;
+    margin-bottom: 40px;
+    font-size: 45px;
+    line-height: 45px;
 }
 
 
+	/*----pawnbroking----*/
+   .pawning {
+        padding-top: 10px;
+    }
 
-/*----footer-----*/
+	/*---form---*/
+	.col {
+		padding-top: 3%;
+		width: 5%;
+	}
+
+
 
 
