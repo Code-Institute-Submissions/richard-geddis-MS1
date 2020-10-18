@@ -55,9 +55,8 @@ there is also three columns which gives alot of written information to include.
 
 Products- This page will consist of a breakdown of a further four pages.
 1. jewellery
-2. clothes
-3. footwear
-4. uniforms.
+2. footwear
+3. uniforms.
 All pages will have a small range of images of  the items in which we sell at G&J Geddis Pawnbroking
 with a small amount of detail below.  There will also be the nav-bar along the top.
  with the footer at the bottom linking the customers to social media links.
@@ -66,7 +65,6 @@ with a small amount of detail below.  There will also be the nav-bar along the t
  address so as they can sign up for the newsletter informing the customer of any new deals or any
  information on the pawnbroking business that might affect their goods which they have in pawn with
  us currently.
-
 
 From these wireframes you can see the outline of my project and so  I got started writing my code.
 There is quite a difference between the appearance of the wireframes and the actual coded website. 
