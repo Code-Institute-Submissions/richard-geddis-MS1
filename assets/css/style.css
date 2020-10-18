@@ -31,6 +31,53 @@
 	font-weight: bold;
 }
 
+
+/* Footer */
+
+#footer-details {
+    padding: 20px;
+    background-color: #fafaff
+}
+
+.far {
+    color: #ffc34d;
+    font-size: 30px;
+}
+
+.fab{
+    color: #ffc34d;
+    width: 50px;
+    height: 32px;
+    border-radius: 50%;
+    font-size: 30px;
+    line-height: 7px;
+}
+
+.uppercase{
+    color: #0000e6;
+    font-weight: bold;
+}
+
+/* pawnbroking */
+.pawning {
+    padding: 20px;
+    text-align: justify;
+    margin: 0;
+}
+.fas {
+    color: #ffc34d;
+}
+
+.pawn-title {
+    color: #0000e6;
+    font-weight: bold;
+}
+
+.para{
+    font-family: "roboto",sans-serif;
+}
+
+
 /*----covid alert------*/
 .alert-container .col-12 {
     padding-left: 0;
@@ -38,7 +85,7 @@
 }
 
 .alert-warning {
-    color:#000000e1;
+    color:red;
     background-color: #ffc34d;
     border-color: #ffc34d;
     padding-top: 5px;
@@ -50,36 +97,48 @@
     text-align: center;
     font-size: 23px;
 }
-/* History */
 
-.form-history {
-    font-size: 20px;
-    margin: 0;
-    padding: 2px;
-    align-content: center;
-    font-family: "Roboto", sans-serif;
+/* reviews */
+    .block-divider {
+    width: 80px;
+    height: 10px;
+    border: 0;
+    background-color:#ffc34d;
 }
 
-.form-picture{
-    width: 90%;
-}
-.form-benefits{
-      font-size: 20px;
-    margin: 0;
-    padding: 2px;
-    align-content: center;
-    font-family: "Roboto", sans-serif;
-}
+.reviews{
+    font-family:"roboto",sans-serif;
+    font-size: 13px;
+    margin: 0px;
+    padding: 0;
 }
 
-/*----twitter-----*/
-
-.twitter-timeline {
-	float: right;
+/* About G&J Geddis */
+.container-wrapper--orange {
+    background-color: #ffc34d;
+    color: black;
 }
 
+.information {
+    margin-bottom: 30px;
+    text-align: justify;
+}
 
-/*-----welcome to----*/
+.text-uppercase {
+    font-size: 30px;
+    color: #0000e6;
+    text-align: center;
+    font-weight: bold;
+}
+
+.subtitle {
+    font-size: 25px;
+     color: #0000e6;
+     text-align: center;
+     font-weight:initial;
+}
+
+/*-----Opening hours----*/
 
 .sidebar {
 	text-align: center;
@@ -92,38 +151,21 @@
 	padding: 0;
 	color: black;
 
-
 	/*-----front-image-----*/
 	.container-fluid {
 		width: 100%;
 		position: relative;
 	}
 
-.social-links {
-    padding-bottom: 15px;
-}
-
-  .social-links li a i {
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
-    border-radius: 50%;
-    font-size: 15px;
-    line-height: 7px;
-    text-align: center;
-    color: #ffc34d;;
-    background: #ffc34d;;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
-
 	/*---form---*/
 	.col {
 		padding-top: 3%;
 		width: 5%;
 	}
+
+
+
+
 
 
 
