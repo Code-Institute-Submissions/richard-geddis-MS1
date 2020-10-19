@@ -37,9 +37,9 @@ Customers should be able to do the following on the website:
 * Navigate easily throughout the website.
 
 ### Skeleton Plane:
-I started to develop my wireframes at this stage. I used Balsamiq wireframes to create  each page.
-The main aim is  to make sure the main content is somewhat similar in design to create consistency,
-and is executed to a high level.
+I started to develop my wireframes at this point. I used Balsamiq wireframes to create  each page.
+The main aim was to make sure the main content is similar in design so as to be able to create consistency,
+and is execute the website to a highest level I could achieve.
 I thought that the user should have an easy and simple navigation bar with 4 choices one of which 
 is a dropdown menu.
 Here is a list of what is on each page:
@@ -66,33 +66,39 @@ with a small amount of detail below.  There will also be the nav-bar along the t
  information on the pawnbroking business that might affect their goods which they have in pawn with
  us currently.
 
-From these wireframes you can see the outline of my project and so  I got started writing my code.
-There is quite a difference between the appearance of the wireframes and the actual coded website. 
-The wireframes helped in deciding what had to be put into the website but as to what page they went on
-I chopped and changed until I saw what i felt was the best layout which really came after i started
-coding and getting a real true outline for the website.
+From these wireframes you can see the outline of my project and from that I got started writing my code.
+There is quite a big difference between the appearance of the wireframes and the website. 
+The wireframes helped me decide what had to be put into the website. But I found as I got coding 
+the webpage started to change and the content changed with it.
 
 ### Surface Plane:
 
 The next stage was to move onto the design stage of the website.
 
 The first stage was the colour. This website is based around information it has alot of text in it
-and alot of legal infromation. With that I dont want to go crazy with colour.  It should be a 
+and alot of legal information. With that I dont want to go crazy with colour.  It should be a 
 minimalist website with little clutter or distractions.
+
 Color - 
-The main colour will be #ffc34d, rgb(255, 195, 77).  This will be the colour of the nav bar and the 
-background to my footer.  
-I will also have some of the titles using #0000e6, rgb(0, 0, 230) This is to match in with the colour
+The main colour will be #ffc34d, rgb(255, 195, 77).  This will be the colour of the nav bar and other 
+key features such as the buttons and any icons that i may use through the site.
+I will also have the titles using #0000e6, rgb(0, 0, 230) This is to match in with the colour
 of the shop front which is blue.
+The back ground of the footer will be a very pale grey #afaff almost white.  As i have meantioned
+I want to keep this site minimalist and although it needs to look attractive I want it to look clean. 
 
 Typography -
 I used Google Fonts to select the fonts for my project. 
-The Roboto font is the main font used throughout the whole website with Sans Serif as the fallback
-font in case for any reason the font isn't being imported into the site correctly. 
+The Roboto font is the main font used for this website.  Should something
+happen to Google then Sans Serif will be used  as the fallback font. 
 
 Imagery - 
+The Hero image across all pages was from a family picure of the business used in most of the 
+Marketing campaigns.  The rest of the images found from google images.
 
 Layout- 
+The layout of the site should be over 4 main pages with dropdown holding another 3 which will be a 
+gallery of some of the products in which we have for sale. 
 
 
 ### Testing done on Different Devices:
