@@ -44,7 +44,7 @@
     font-size: 30px;
 }
 
-.fab{
+.fab {
     color: #ffc34d;
     width: 50px;
     height: 32px;
@@ -53,7 +53,7 @@
     line-height: 7px;
 }
 
-.uppercase{
+.uppercase {
     color: #0000e6;
     font-weight: bold;
 }
@@ -73,10 +73,9 @@
     font-weight: bold;
 }
 
-.para{
+.para {
     font-family: "roboto",sans-serif;
 }
-
 
 /*----covid alert------*/
 .alert-container .col-12 {
@@ -98,19 +97,63 @@
     font-size: 23px;
 }
 
-/* reviews */
-    .block-divider {
-    width: 80px;
-    height: 10px;
-    border: 0;
-    background-color:#ffc34d;
+/*---form---*/
+.comment-header {
+    color: #0000e6;
+    font-weight: bold;
+    text-align: justify;
+}
+	
+	.form-control {
+    padding-top: 10px;
+    max-width: 70%;
+    padding-bottom: 10px;
+    text-align: justify;
+}
+   
+	.btn-primary {
+        margin-top: 6px;
+        margin-bottom: 20px;
+        background-color: #ffc34d;
+        border-color:#ffc34d;
+        color:#0000e6;
+        font-weight:bold;
+    }
+
+/* review */
+.text-uppercase {
+	padding: 10px;
+	padding-bottom: 0px;
 }
 
-.reviews{
-    font-family:"roboto",sans-serif;
-    font-size: 13px;
-    margin: 0px;
-    padding: 0;
+.block-divider {
+    width: 90px;
+    height: 15px;
+    border: 0;
+    background-color: #ffc34d;
+}
+
+.review {
+    font: 18px;
+    margin: 10px;
+    font-family: "roboto",sans-serif;
+    font-weight: 300;
+}
+
+/* shoes */
+   .price1 {
+    text-align: center;
+    color: #0000e6;
+    font-weight: bold;
+    font-size: 32px   
+}
+
+.shoes {
+    color:#0000e6;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+
 }
 
 /* About G&J Geddis */
@@ -122,6 +165,7 @@
 .information {
     margin-bottom: 30px;
     text-align: justify;
+    font-family:"roboto",sans-serif;
 }
 
 .text-uppercase {
@@ -129,13 +173,16 @@
     color: #0000e6;
     text-align: center;
     font-weight: bold;
+    font-family:"roboto",sans-serif;
+
 }
 
 .subtitle {
     font-size: 25px;
      color: #0000e6;
      text-align: center;
-     font-weight:initial;
+     font-weight: 600;
+     font-family:"roboto",sans-serif;
 }
 
 /*-----Opening hours----*/
@@ -144,6 +191,8 @@
 	text-align: center;
 	font-size: 16px;
 	color: #0000e6;
+    font-family: "roboto",sans-serif;
+    font-weight: 300;
 }
 
 .sidebar2 {
@@ -157,12 +206,8 @@
 		position: relative;
 	}
 
-	/*---form---*/
-	.col {
-		padding-top: 3%;
-		width: 5%;
-	}
 
+ 
 
 
 
