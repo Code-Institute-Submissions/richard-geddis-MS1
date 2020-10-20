@@ -55,6 +55,9 @@ there is also three columns which gives alot of written information to include.
 2. What the customer can pawn.
 3. The legal side of Pawnbroking.
 
+
+<img src="assets/images/pawnbroking.png" width="350" title="Homepage">
+
 Products- This page will consist of a breakdown of a further four pages.
 1. jewellery
 2. footwear
@@ -63,10 +66,14 @@ All pages will have a small range of images of  the items in which we sell at G&
 with a small amount of detail below.  There will also be the nav-bar along the top.
  with the footer at the bottom linking the customers to social media links.
 
+ <img src="assets/images/products.png" width="350" title="Homepage">
+
  Contact us-  This page will have a form which will allow people to fill in there name and email
  address so as they can sign up for the newsletter informing the customer of any new deals or any
  information on the pawnbroking business that might affect their goods which they have in pawn with
  us currently.
+
+ <img src="assets/images/contactus.png" width="350" title="Homepage">
 
 From these wireframes you can see the outline of my project and from that I got started writing my code.
 There is quite a big difference between the appearance of the wireframes and the website. 
