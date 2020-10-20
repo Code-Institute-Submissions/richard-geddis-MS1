@@ -156,6 +156,21 @@
 
 }
 
+.price {
+    font-size: 23px;
+    align-content: justify;
+    text-align: justify;
+}
+
+
+@media(min-width:925px) {
+    .price1 {
+        padding-top: 5px;
+        min-height: 80px;
+        margin: 0 auto;
+        max-width: 20%;
+    }
+
 /* About G&J Geddis */
 .container-wrapper--orange {
     background-color: #ffc34d;
@@ -206,6 +221,7 @@
 		position: relative;
 	}
 
+ 
 
  
 
