@@ -47,6 +47,8 @@ Here is a list of what is on each page:
  Home- consists of the nav-bar, a front image of the shop, basic information such as opening hours,
 The twitter feed, a brief history of the company and the footer linking to the main pages and to social links.
 
+(assets/images/home page.png)
+
 Pawnbroking - this again comsists of the same nav-bar and image of the shop front along with the same footer.
 there is also three columns which gives alot of written information to include.  
 1. How pawnbroking works
