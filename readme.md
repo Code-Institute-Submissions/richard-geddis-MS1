@@ -118,6 +118,31 @@ on each of these devices.
 2. mobile phone mode to include iphone 6, iphone 6 plus, google pixel, and samsung galaxy S5
 3. Tablet mode I have tested it in ipad, ipad pro and surface duo.
 
+### Deployment:
+
+This project was advanced in GitPod and set up to the hosting platform GitHub Pages.
+
+The following steps have been taken to deploy G&J Geddis Pawnbroking to Github pages.
+
+1. I logged into my GitHub account.
+2. Clicked on My Repositories.
+3. Navigated to richard-geddis/ms1
+4. Selected Settings along the top of my screen.
+5. Scrolled down to you find the GitHub Pages section. 
+6. Select 'Master Branch' from the 'source' dropdown menu.
+7. select your "root" if you have one.
+8. Confirmed my selection.
+9. G&J Geddis Pawnbroking is now live on GitHub Pages.
+10. Copy your HTML link above github pages, paste into a browswer to ensure it works.
+
+The benefits of hosting the website on GitHub pages are the following:
+
+* Any pushed changes that is made to your project will automatically update the website. 
+* If i decide to add more branches to the website I can do this using github and the
+  webpage will adjust once they are pushed to github
+* It can take a few minutes depending on the changes for the website to amend. Do not 
+  worried in relation to this.
+
 ### Technologies Used:
 Here is a list of some the technologies I have used in building this website:
 
