@@ -15,20 +15,20 @@
       <header>
          <nav class="navbar navbar-dark navbar-expand-sm">
          <a href="/" class="navbar-brand">G&J Geddis Pawnbroking</a>
-         <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+         <button  class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
          <span class="navbar-toggler-icon"></span></button>
          <div class="collapse navbar-collapse" id="navbarNavDropdown">
          <ul class="navbar-nav mr-auto">
-            <li><a class="nav-link" href="index.html">Home</a></li>
-            <li> <a class="nav-link" href="pawnbroking.html">Pawnbroking</a></li>
+            <li><a  class="nav-link" href="index.html">Home</a></li>
+            <li> <a  class="nav-link" href="pawnbroking.html">Pawnbroking</a></li>
             <li class="nav-item dropdown">
-               <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+               <a  class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                Products
                </a>
                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                   <a class="dropdown-item" href="jewellery.html">Jewellery</a>
-                  <a class="dropdown-item" href="shoes.html">Footwear</a>
-                  <a class="dropdown-item" href="uniform.html">School Uniform</a>
+                  <a  class="dropdown-item" href="shoes.html">Footwear</a>
+                  <a  class="dropdown-item" href="uniform.html">School Uniform</a>
                </div>
             </li>
             <li><a class="nav-link" href="contact.html">Contact us</a></li>
@@ -37,7 +37,7 @@
       </header>
       <!-- hero image -->
       <div class="container-fluid">
-         <img src="assets/images/geddis.jpg" alt="logo" style="width:100%;">
+         <img class="img-fluid" src="assets/images/geddis.jpg" alt="logo" style="width:100%;">
       </div>
 <!-- customer reviews -->
       <div class="container-wrapper">
@@ -60,7 +60,7 @@
                               <p class="review">I have used G&J Geddis to help me out financially.  I regularly pawn my rolex watch to
                                  gain some short term money to pay some bills.  The family business makes it easy for me to
                                  do this as it is a friendly environment were everyone is so happy and nobody looks down on
-                                 you 
+                                 you. 
                               </p>
                               <p>Peter McBride</p>
                            </blockquote>
@@ -75,7 +75,7 @@
                         <div class="media-body">
                            <blockquote class="blockquote">
                               <p class="review">Would recommend to anyone, Robert is a top man & his staff are friendly top girls.</p>
-                              <p> Vivien Watt</p>
+                              <p> Vivien Marple</p>
                            </blockquote>
                         </div>
                      </div>
@@ -85,28 +85,22 @@
          </div>
       </div>
       <!-- enquires form -->
-      <form>
-         <h2 class="comment-header">Enquires</h2>
-         <div class="container row">
+           <section class="container-fluid">
             <div class="col">
-               <input type="text" class="form-control" placeholder="First name">
-            </div>
-         </div>
-         <div class="container row">
-            <div class="col">
-               <input type="text" class="form-control" placeholder="Last name">
-            </div>
-         </div>
-         <div class=" container row">
-            <div class="col">
-               <input type="email" class="form-control" placeholder="email">
-               <div class="row">
-                <textarea rows="3" name="comment" id="comment" class="form-control" placeholder="comment"></textarea>
+                <h3 class="contact-heading uppercase text-center">Enquiries!</h3>
+                <div class="center-form">
+                <form>
+                         <input type="text" name="name" id="fullname" class="form-control" placeholder=" Full Name" required />
+                        <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required />
+                        <textarea rows="5" name="enquiries" id="enquires" class="form-control" placeholder="Enquiries" required></textarea>
+                        <div class="form-row text-center">
+                            <div class="col">
+                                <button type="enquiries" class="btn btn-secondary">Send your enquiries here</button>
                 </div>
             </div>
-         </div>
-         <button type="Enquire" class="btn btn-primary mb-2">Enquire</button>
-      </form>
+            </form>
+        </div>
+    </section>
         <!-- Footer -->
      <footer class="container-fluid">
         <div id="footer-details" class="row">

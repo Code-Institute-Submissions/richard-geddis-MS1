@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700');
 
-
 /*---navbar----*/
 
 .navalert-container {
@@ -97,28 +96,30 @@
     font-size: 23px;
 }
 
-/*---form---*/
-.comment-header {
-    color: #0000e6;
-    font-weight: bold;
-    text-align: justify;
+/* Form */
+
+.contact-heading{
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-size: 35px;
+
 }
-	
-	.form-control {
-    padding-top: 10px;
-    max-width: 70%;
-    padding-bottom: 10px;
-    text-align: justify;
-}
+
+.center-form {
+    margin: 0 auto;
+    max-width: 100%;
+    font-family: "roboto", sans-serif;
    
-	.btn-primary {
-        margin-top: 6px;
-        margin-bottom: 20px;
-        background-color: #ffc34d;
-        border-color:#ffc34d;
-        color:#0000e6;
-        font-weight:bold;
-    }
+}
+
+button[type="enquiries"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: black;
+    background-color: #ffc34d;
+}
 
 /* review */
 .text-uppercase {
@@ -140,39 +141,68 @@
     font-weight: 300;
 }
 
-/* shoes */
-   .price1 {
+/* products */
+#photo {
+    clear: both;
+    line-height: 0;
+    column-count: 2;
+    column-gap: 0px;
+}
+
+#photo img{
+    width: 100%;
+}
+
+.text {
     text-align: center;
+    font-size: 30px;
     color: #0000e6;
-    font-weight: bold;
-    font-size: 32px   
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .shoes {
-    color:#0000e6;
     text-align: center;
-    font-size: 40px;
-    font-weight: 900;
-
+    font-size:  50px;
+    color: #ffc34d;
+    font-weight: bold;
 }
 
-.price {
-    font-size: 23px;
-    align-content: justify;
-    text-align: justify;
-}
+.uniform {
+    text-align: center;
+    font-size: 30px;
+    color: #0000e6;
+    padding-top: 20px;
+    padding-bottom: 20px
 
+}
 
 /* About G&J Geddis */
 .container-wrapper--orange {
     background-color: #ffc34d;
     color: black;
+    margin: 0;
 }
 
 .information {
-    margin-bottom: 30px;
     text-align: justify;
-    font-family:"roboto",sans-serif;
+    margin-bottom: 40px;
+    margin-bottom: 20px;
+    font-size: 23px;
+    line-height: 25px;
+}
+
+/* twitter feed */
+
+.twitter {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.twitter-timeline {
+  padding;0;
+  margin: 0;
+
 }
 
 .text-uppercase {
@@ -192,6 +222,7 @@
      font-family:"roboto",sans-serif;
 }
 
+
 /*-----Opening hours----*/
 
 .sidebar {
@@ -206,6 +237,7 @@
 	list-style-type: none;
 	padding: 0;
 	color: black;
+    align-content: center;
 
 	/*-----front-image-----*/
 	.container-fluid {
